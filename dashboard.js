@@ -139,12 +139,12 @@ end = target mensive
 
 const startDate =
 new Date(
-"2025-07-03T00:00:00"
+"2025-10-25T00:00:00"
 );
 
 const endDate =
 new Date(
-"2026-06-03T00:00:00"
+"2026-06-07T00:00:00"
 );
 
 function updateCounter(){
