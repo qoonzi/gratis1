@@ -32,25 +32,14 @@ loading.style.display="none";
 AUTO PLAY MUSIC
 ========================== */
 
-document.addEventListener(
-"click",
-()=>{
+const btnYes = document.getElementById("btnYes");
 
-const music =
-document.getElementById(
-"bgMusic"
-);
+btnYes.addEventListener("click", () => {
+    localStorage.setItem("musicAllowed", "true");
 
-if(music){
-
-music.play();
-
-}
-
-},
-{once:true}
-);
-
+    const music = document.getElementById("bgMusic");
+    music.play().catch(() => {});
+});
 
 /* ==========================
 FLOATING HEARTS
