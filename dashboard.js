@@ -351,10 +351,3 @@ alert(
 });
 
 });
-
-<iframe
-src="music-player.html"
-id="musicFrame">
-</iframe>
-
-</html>
