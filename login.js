@@ -1,7 +1,7 @@
 // GANTI PASSWORD DI SINI
 
 const PASSWORD =
-"030725";
+"251025";
 
 
 function addNumber(num){
